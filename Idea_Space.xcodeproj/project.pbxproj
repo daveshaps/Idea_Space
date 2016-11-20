@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		306EAD1B1DDCEA3E0036DD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD1A1DDCEA3E0036DD9D /* AppDelegate.swift */; };
-		306EAD1D1DDCEA3E0036DD9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD1C1DDCEA3E0036DD9D /* ViewController.swift */; };
 		306EAD201DDCEA3E0036DD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306EAD1E1DDCEA3E0036DD9D /* Main.storyboard */; };
 		306EAD221DDCEA3E0036DD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306EAD211DDCEA3E0036DD9D /* Assets.xcassets */; };
 		306EAD251DDCEA3E0036DD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306EAD231DDCEA3E0036DD9D /* LaunchScreen.storyboard */; };
 		306EAD301DDCEA3E0036DD9D /* Idea_SpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD2F1DDCEA3E0036DD9D /* Idea_SpaceTests.swift */; };
 		306EAD3B1DDCEA3E0036DD9D /* Idea_SpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD3A1DDCEA3E0036DD9D /* Idea_SpaceUITests.swift */; };
+		306EAD511DDD12AC0036DD9D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD501DDD12AC0036DD9D /* SettingsViewController.swift */; };
+		306EAD571DDD13900036DD9D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD561DDD13900036DD9D /* TabBarViewController.swift */; };
+		306EAD5D1DDD18300036DD9D /* IdeasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EAD5C1DDD18300036DD9D /* IdeasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		306EAD171DDCEA3E0036DD9D /* Idea_Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idea_Space.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		306EAD1A1DDCEA3E0036DD9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		306EAD1C1DDCEA3E0036DD9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		306EAD1F1DDCEA3E0036DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		306EAD211DDCEA3E0036DD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306EAD241DDCEA3E0036DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		306EAD361DDCEA3E0036DD9D /* Idea_SpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Idea_SpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		306EAD3A1DDCEA3E0036DD9D /* Idea_SpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea_SpaceUITests.swift; sourceTree = "<group>"; };
 		306EAD3C1DDCEA3E0036DD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306EAD501DDD12AC0036DD9D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		306EAD561DDD13900036DD9D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		306EAD5C1DDD18300036DD9D /* IdeasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				306EAD1A1DDCEA3E0036DD9D /* AppDelegate.swift */,
-				306EAD1C1DDCEA3E0036DD9D /* ViewController.swift */,
+				306EAD501DDD12AC0036DD9D /* SettingsViewController.swift */,
+				306EAD561DDD13900036DD9D /* TabBarViewController.swift */,
+				306EAD5C1DDD18300036DD9D /* IdeasViewController.swift */,
 				306EAD1E1DDCEA3E0036DD9D /* Main.storyboard */,
 				306EAD211DDCEA3E0036DD9D /* Assets.xcassets */,
 				306EAD231DDCEA3E0036DD9D /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				306EAD1D1DDCEA3E0036DD9D /* ViewController.swift in Sources */,
 				306EAD1B1DDCEA3E0036DD9D /* AppDelegate.swift in Sources */,
+				306EAD5D1DDD18300036DD9D /* IdeasViewController.swift in Sources */,
+				306EAD511DDD12AC0036DD9D /* SettingsViewController.swift in Sources */,
+				306EAD571DDD13900036DD9D /* TabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				306EAD411DDCEA3E0036DD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		306EAD421DDCEA3E0036DD9D /* Build configuration list for PBXNativeTarget "Idea_SpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				306EAD441DDCEA3E0036DD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		306EAD451DDCEA3E0036DD9D /* Build configuration list for PBXNativeTarget "Idea_SpaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				306EAD471DDCEA3E0036DD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
